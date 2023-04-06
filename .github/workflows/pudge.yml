@@ -12,5 +12,5 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: pipeline echo
-      run: echo pudge
+    - name: pipeline run
+      run: npm run serve
