@@ -13,4 +13,4 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: pipeline run
-      run: npm run serve
+      run: npm ping
